@@ -1,0 +1,17 @@
+{
+  "name": "keystone-headless-cms",
+  "version": "1.0.0",
+  "description": "Simple KeystoneJS Headless CMS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "keystone dev",
+    "build": "keystone build",
+    "start": "keystone start"
+  },
+  "dependencies": {
+    "@keystone-6/core": "^6.0.0",
+    "@keystone-6/auth": "^6.0.0",
+    "@keystone-6/fields": "^6.0.0",
+    "dotenv": "^16.0.0"
+  }
+}
